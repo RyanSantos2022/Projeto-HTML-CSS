@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mini framework by Ryan */
+.d-flex {display: flex;}
+
+.cg-40{
+    column-gap: 60px;
+}
+
+.aside{
+    background-color: #27292B;
+    color: #F4A722;
+    height: 937px;
+    width: 500px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aside-avatar{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.aside-avatar img {
+    width: 100%;
+    max-width: 100%;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    
+}
+
+.links{
+    color: #F4A722;
+    margin: auto;
+    margin-top: 100%;
+    
+
+
+}
+
+.section{
+    background-color: #27292B;
+    color: #F4A722;
+    height: 937px;
+    width:2000px;
+}
+
+h5{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+
+}
+
+.svg{
+margin: 40px;
+
+}
+
+.dados{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    margin-top: 40px;
+}
+
+.dadospessoais{
+    margin-left: 70px;
+
+}
+
+#email{
+    margin-top: 5px;
+}
+
+
+#dados{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+#informações{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
