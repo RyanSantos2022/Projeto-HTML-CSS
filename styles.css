@@ -86,32 +86,43 @@ margin: 40px;
 
 }
 
-.dados{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    margin-top: 40px;
-}
 
-.dadospessoais{
-    margin-left: 70px;
-
-}
 
 #email{
     margin-top: 5px;
 }
 
 
-#dados{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin-top: 50px;
 
-}
-
-#informações{
+#conteudo{
     color: white;
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.titulos{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coluna{
+    display: inline-block;
+}
+
+#coluna2{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+    
+
+
+}
+
+#conteudo2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
