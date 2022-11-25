@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+
+}
 .container{
     max-width: 1800px;
     margin-left: auto;
@@ -12,9 +16,18 @@
 
 /* Mini framework by Ryan */
 .d-flex {display: flex;}
+.justify-content-between{justify-content: space-between;}
 
 .cg-40{
     column-gap: 60px;
+}
+
+.px-70{
+    padding: 0 70px;
+}
+
+.fw-400{
+    font-weight: 400;
 }
 
 .aside{
@@ -28,7 +41,6 @@
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .aside-avatar{
     height: 150px;
@@ -52,12 +64,18 @@ footer nav{
 }
 
 .links{
-    color: #F4A722;
+   
     margin: auto;
     margin-top: 100%;
     
 
 
+}
+
+.link {
+    color: #F4A722;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .section{
@@ -71,7 +89,6 @@ h5{
     color: white;
     text-align: center;
     margin-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
@@ -94,35 +111,16 @@ margin: 40px;
 
 
 
-#conteudo{
+.conteudo{
     color: white;
     margin-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
 }
 
 .titulos{
-    margin-left: 70px;
     margin-top: 20px;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.coluna{
-    display: inline-block;
-}
-
-#coluna2{
-color: white;
-font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
-    
-
-
-}
-
-#conteudo2{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
