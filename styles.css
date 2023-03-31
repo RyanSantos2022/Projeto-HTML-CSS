@@ -67,6 +67,7 @@ footer nav{
    
     margin: auto;
     margin-top: 100%;
+
     
 
 
@@ -75,7 +76,7 @@ footer nav{
 .link {
     color: #F4A722;
     text-decoration: none;
-    font-weight: 400;
+   margin-bottom: 100px;
 }
 
 .section{
